@@ -1,0 +1,29 @@
+{
+  "name": "tubesnag-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tubesnag.js",
+  "scripts": {
+    "dev": "nodemon ./server",
+    "test": "jest",
+    "start": "node ./server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3io-dev/TubeSnag-Backend/issues"
+  },
+  "homepage": "https://github.com/3io-dev/TubeSnag-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0",
+    "ytdl-core": "^4.11.4"
+  }
+}
