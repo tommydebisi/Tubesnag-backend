@@ -1,8 +1,8 @@
-require("dotenv").config();
+require("dotenv").config()
 const express = require("express");
 const cors = require("cors");
 
-const routes = require("./routes/v1/tubesnagRoute");
+const routes = require("./routes");
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 // use middleware for v1 api requests
-app.use("/v1", routes);
+app.use("/api", routes);
 
 // Start the server
 const port = process.env.PORT || 3000;

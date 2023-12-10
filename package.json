@@ -19,11 +19,14 @@
   },
   "homepage": "https://github.com/3io-dev/TubeSnag-Backend#readme",
   "dependencies": {
+    "archiver": "^6.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22",
     "validator": "^13.9.0",
     "ytdl-core": "^4.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
