@@ -94,4 +94,8 @@ npm install
 node app.js
 ```
 
-Author: [Oluwatomiwa Adebisi](https://linkedin.com/in/oluwatomiwaadebisi)
+The API will be available at `https://tubesnag.onrender.com`.
+
+## Authors 
+- [Oluwatomiwa Adebisi](https://linkedin.com/in/oluwatomiwaadebisi)
+- Oluwasube Promise
